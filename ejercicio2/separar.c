@@ -75,10 +75,10 @@ int main(){
         }
     }
     printf("Frase original: %s\n",frase);
-    printf("\nDivision en dos...\n");
+    printf("Division en dos...\n\n");
     printf("Frase 1: \n");
     printStringArray(par, indParPalabra);
-    printf("Frase 2: \n");
+    printf("\nFrase 2: \n");
     printStringArray(impar, indImparPalabra);
     return 0;
 }
