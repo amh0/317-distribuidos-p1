@@ -13,7 +13,7 @@
  * asi, se recorre desde el inicio de la palabra (indiceActual - lenPalabra) hasta el final de la palabra agregando
  * los chars a un 'string' para luego añadirlo al array de palabras pares o impares segun corresponda
  *
- * COMPILACION: (Windows y Linux)
+ * COMPILACION: En Windows y Linux
  * gcc separar.c -o separar -fopenmp 
  */
 void printStringArray(char **a, int n){
