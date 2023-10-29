@@ -1,8 +1,8 @@
 import multiprocessing as mp
 from multiprocessing.pool import Pool
-# Libreria: mpi
+# Libreria: multiprocessing
 # Genera la serie: 2, 2, 5, 4, 10, 6, 17
-# usando Pool() se dividen los calculos de la serie entre los procesadores
+# Usando Pool() se dividen los calculos de la serie entre los procesadores
 # el resultado se almacena en la lista serie
 
 def calcSerieI(i):
