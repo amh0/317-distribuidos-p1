@@ -17,7 +17,7 @@
  * 
  * Usa el mismo algoritmo para encontrar palabras que el programa separar.c
  * 
- * COMPILACION: Dependiendo del SO mpicc (Linux) o gcc (Windows) 
+ * COMPILACION: Dependiendo del SO  gcc (Windows) o mpicc (Linux)
  * EJECUCION: 
  *      Windows: mpiexec -n [nProcesadores] separarMPI
  *      Linux: mpirun -np [nProcesadores] ./separarMPI
